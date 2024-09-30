@@ -1,0 +1,7 @@
+npm install express cors socket.io serialport @serialport/parser-readline
+
+express: Para criar o servidor web
+cors: Para habilitar CORS e permitir que o frontend se comunique com o backend
+socket.io: Para comunicação em tempo real entre backend e frontend
+serialport: Para comunicação via porta serial com o Arduino
+@serialport/parser-readline: Para fazer a leitura de dados recebidos do Arduino
